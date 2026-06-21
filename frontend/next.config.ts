@@ -1,15 +1,15 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // Allows you to test on your phone using your computer's local IP address
-  // (Note: Next.js 15+ requires this to avoid Invalid Host header errors)
-  allowedDevOrigins: ['192.168.1.103', 'localhost'],
+  // Allows local testing (optional, safe for dev)
+// allowedDevOrigins: ['192.168.1.103', 'localhost'], // removed for production
 
+  // Proxy API requests to the Python backend running on port 8000
   async rewrites() {
     return [
       {
         source: '/api/:path*',
-        destination: 'http://127.0.0.1:8000/api/:path*', // Proxy to Backend
+        destination: 'https://mht-cet-predictor-zainul-aabdeen.onrender.com/api/:path*', // Proxy to Production Backend
       },
     ];
   },
