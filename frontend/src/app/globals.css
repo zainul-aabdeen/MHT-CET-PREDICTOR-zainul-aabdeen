@@ -1,0 +1,119 @@
+
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: 'Inter', sans-serif;
+  --font-serif: 'Playfair Display', serif;
+  --font-body: 'Lora', serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --radius-sm: var(--radius);
+  --radius-md: var(--radius);
+  --radius-lg: var(--radius);
+  --radius-xl: var(--radius);
+  --radius-2xl: var(--radius);
+  --radius-3xl: var(--radius);
+  --radius-4xl: var(--radius);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+}
+
+:root {
+  --background: #F9F9F7;
+  --foreground: #111111;
+  --card: #F9F9F7;
+  --card-foreground: #111111;
+  --popover: #F9F9F7;
+  --popover-foreground: #111111;
+  --primary: #111111;
+  --primary-foreground: #F9F9F7;
+  --secondary: transparent;
+  --secondary-foreground: #111111;
+  --muted: #E5E5E0;
+  --muted-foreground: #737373;
+  --accent: #CC0000;
+  --accent-foreground: #F9F9F7;
+  --destructive: #CC0000;
+  --destructive-foreground: #F9F9F7;
+  --border: #111111;
+  --input: #111111;
+  --ring: #111111;
+  --radius: 0px;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+    border-radius: 0px !important;
+  }
+  body {
+    @apply bg-background text-foreground font-body;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23111111' fill-opacity='0.04' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif text-foreground;
+  }
+}
+
+.sharp-corners {
+  border-radius: 0px !important;
+}
+
+.newsprint-texture {
+  position: relative;
+}
+
+.newsprint-texture::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(0deg, transparent 98%, rgba(0,0,0,0.02) 100%),
+    linear-gradient(90deg, transparent 98%, rgba(0,0,0,0.02) 100%);
+  background-size: 3px 3px;
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.hard-shadow-hover {
+  transition: all 0.2s ease-out;
+}
+.hard-shadow-hover:hover {
+  box-shadow: 4px 4px 0px 0px #111111;
+  transform: translate(-2px, -2px);
+}
+
+/* ── Print / Save-as-PDF watermark ─────────────────────────────── */
+@media print {
+  /* Show the watermark overlay */
+  .print-watermark-overlay {
+    display: flex !important;
+  }
+
+  /* Hide interactive UI elements that make no sense on paper */
+  nav,
+  .sticky,
+  button,
+  select {
+    display: none !important;
+  }
+
+  /* Remove backgrounds that waste ink */
+  body {
+    background: white !important;
+  }
+}

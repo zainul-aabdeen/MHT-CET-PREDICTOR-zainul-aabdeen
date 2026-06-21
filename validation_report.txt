@@ -1,0 +1,238 @@
+======================================================================
+VALIDATION REPORT
+======================================================================
+
+Pages parsed: 1566
+Total PDF pages: 1566
+Pages parsed == Total PDF pages: True
+
+Total rows extracted: 34406
+Duplicate rows: 538
+Duplicate examples (first 10):
+  Page 4: 01005 | 0100551710 | HU_OHU | GOBCH | Stage I
+  Page 5: 01005 | 0100552410 | HU_OHU | GOPENH | Stage I
+  Page 9: 01012 | 0101229310 | HU_OHU | GSTH | Stage I
+  Page 9: 01012 | 0101229310 | HU_OHU | GSEBCH | Stage I
+  Page 10: 01012 | 0101237210 | HU_OHU | GSEBCH | Stage I
+  Page 11: 01012 | 0101261210 | HU_OHU | GSEBCH | Stage I
+  Page 29: 01117 | 0111724210 | HU_OHU | GNT3H | Stage I
+  Page 44: 01123 | 0112319110 | OHU_HU | GSCO | Stage I
+  Page 49: 01123 | 0112399510 | HU_OHU | GSEBCH | Stage I
+  Page 50: 01125 | 0112519110 | OHU_HU | GOPENO | Stage I
+
+Missing values:
+  None
+
+Issues (105):
+  - Page 24: More ranks than remaining categories in 0111624210 HU_HU Stage II: offset=18, ranks=1, total_cats=18
+  - Page 50: More ranks than remaining categories in 0112519110 HU_HU Stage II: offset=6, ranks=2, total_cats=7
+  - Page 124: More ranks than remaining categories in 0211362410 STATE Stage II: offset=14, ranks=2, total_cats=15
+  - Page 141: More ranks than remaining categories in 0212919110 HU_HU Stage II: offset=11, ranks=1, total_cats=11
+  - Page 166: More ranks than remaining categories in 0213519110 HU_HU Stage II: offset=11, ranks=1, total_cats=11
+  - Page 168: More ranks than remaining categories in 0213561210 HU_HU Stage II: offset=12, ranks=1, total_cats=12
+  - Page 170: More ranks than remaining categories in 0213619110 HU_HU Stage II: offset=8, ranks=2, total_cats=9
+  - Page 171: More ranks than remaining categories in 0213624210 HU_OHU Stage II: offset=2, ranks=1, total_cats=2
+  - Page 173: More ranks than remaining categories in 0213629310 HU_HU Stage II: offset=6, ranks=1, total_cats=6
+  - Page 194: More ranks than remaining categories in 0225029310 OHU_OHU Stage II: offset=5, ranks=1, total_cats=5
+  - Page 196: More ranks than remaining categories in 0225061210 HU_HU Stage II: offset=2, ranks=1, total_cats=2
+  - Page 196: More ranks than remaining categories in 0225061210 OHU_OHU Stage II: offset=5, ranks=1, total_cats=5
+  - Page 202: More ranks than remaining categories in 0225419110 HU_HU Stage II: offset=3, ranks=1, total_cats=3
+  - Page 241: More ranks than remaining categories in 0264119110 HU_HU Stage II: offset=5, ranks=1, total_cats=5
+  - Page 243: More ranks than remaining categories in 0264129310 HU_HU Stage II: offset=4, ranks=1, total_cats=4
+  - Page 280: More ranks than remaining categories in 0303319110 STATE Stage II: offset=15, ranks=1, total_cats=15
+  - Page 284: More ranks than remaining categories in 0303352710 STATE Stage II: offset=7, ranks=2, total_cats=8
+  - Page 293: More ranks than remaining categories in 0304291810 HU_HU Stage II: offset=4, ranks=2, total_cats=5
+  - Page 312: More ranks than remaining categories in 0314661210 HU_HU Stage II: offset=12, ranks=2, total_cats=13
+  - Page 315: More ranks than remaining categories in 0314719110 HU_HU Stage II: offset=3, ranks=2, total_cats=4
+  - Page 319: More ranks than remaining categories in 0314761210 HU_HU Stage II: offset=4, ranks=1, total_cats=4
+  - Page 324: More ranks than remaining categories in 0315419110 STATE Stage II: offset=16, ranks=1, total_cats=16
+  - Page 350: More ranks than remaining categories in 0318361610 HU_HU Stage II: offset=2, ranks=1, total_cats=2
+  - Page 389: More ranks than remaining categories in 0319361210 HU_HU Stage II: offset=6, ranks=2, total_cats=7
+  - Page 391: More ranks than remaining categories in 0319419110 HU_HU Stage II: offset=10, ranks=1, total_cats=10
+  - Page 405: More ranks than remaining categories in 0319861210 HU_HU Stage II: offset=4, ranks=1, total_cats=4
+  - Page 423: More ranks than remaining categories in 0320261210 HU_HU Stage II: offset=2, ranks=1, total_cats=2
+  - Page 459: More ranks than remaining categories in 0321761210 HU_HU Stage II: offset=3, ranks=1, total_cats=3
+  - Page 461: More ranks than remaining categories in 0321819110 STATE Stage II: offset=2, ranks=1, total_cats=2
+  - Page 461: More ranks than remaining categories in 0321861210 STATE Stage II: offset=3, ranks=1, total_cats=3
+  - Page 475: More ranks than remaining categories in 0322119110 HU_HU Stage II: offset=4, ranks=2, total_cats=5
+  - Page 478: More ranks than remaining categories in 0322161210 HU_HU Stage II: offset=8, ranks=2, total_cats=9
+  - Page 502: More ranks than remaining categories in 0327735610 HU_HU Stage II: offset=5, ranks=1, total_cats=5
+  - Page 513: More ranks than remaining categories in 0335329310 HU_HU Stage II: offset=2, ranks=1, total_cats=2
+  - Page 513: More ranks than remaining categories in 0335361210 HU_HU Stage II: offset=2, ranks=1, total_cats=2
+  - Page 524: More ranks than remaining categories in 0343961210 STATE Stage II: offset=4, ranks=1, total_cats=4
+  - Page 533: More ranks than remaining categories in 0344719110 HU_HU Stage II: offset=2, ranks=1, total_cats=2
+  - Page 546: More ranks than remaining categories in 0346719110 HU_HU Stage II: offset=3, ranks=1, total_cats=3
+  - Page 546: More ranks than remaining categories in 0346719110 OHU_HU Stage II: offset=2, ranks=1, total_cats=2
+  - Page 555: More ranks than remaining categories in 0347061210 HU_HU Stage II: offset=5, ranks=1, total_cats=5
+  - Page 556: More ranks than remaining categories in 0347119110 HU_HU Stage II: offset=7, ranks=2, total_cats=8
+  - Page 573: More ranks than remaining categories in 0350319110 HU_HU Stage II: offset=2, ranks=1, total_cats=2
+  - Page 577: More ranks than remaining categories in 0350361210 HU_HU Stage II: offset=2, ranks=1, total_cats=2
+  - Page 665: More ranks than remaining categories in 0414729310 STATE Stage II: offset=16, ranks=1, total_cats=16
+  - Page 678: More ranks than remaining categories in 0416735610 STATE Stage II: offset=19, ranks=1, total_cats=19
+  - Page 693: More ranks than remaining categories in 0417561210 HU_HU Stage II: offset=3, ranks=1, total_cats=3
+  - Page 697: More ranks than remaining categories in 0418119110 HU_HU Stage II: offset=6, ranks=2, total_cats=7
+  - Page 710: More ranks than remaining categories in 0419029310 HU_HU Stage II: offset=6, ranks=2, total_cats=7
+  - Page 710: More ranks than remaining categories in 0419037010 HU_HU Stage II: offset=2, ranks=1, total_cats=2
+  - Page 712: More ranks than remaining categories in 0419219110 OHU_OHU Stage II: offset=3, ranks=1, total_cats=3
+  - Page 715: More ranks than remaining categories in 0419261210 HU_OHU Stage II: offset=3, ranks=1, total_cats=3
+  - Page 715: More ranks than remaining categories in 0419261210 OHU_OHU Stage II: offset=2, ranks=1, total_cats=2
+  - Page 717: More ranks than remaining categories in 0419361210 STATE Stage II: offset=3, ranks=1, total_cats=3
+  - Page 757: More ranks than remaining categories in 0500350710 HU_OHU Stage II: offset=6, ranks=1, total_cats=6
+  - Page 762: More ranks than remaining categories in 0500446610 STATE Stage II: offset=15, ranks=1, total_cats=15
+  - Page 782: More ranks than remaining categories in 0510999510 STATE Stage II: offset=22, ranks=1, total_cats=22
+  - Page 783: More ranks than remaining categories in 0512121910 STATE Stage II: offset=21, ranks=1, total_cats=21
+  - Page 833: More ranks than remaining categories in 0516219110 STATE Stage II: offset=20, ranks=1, total_cats=20
+  - Page 845: More ranks than remaining categories in 0516919110 HU_HU Stage II: offset=6, ranks=1, total_cats=6
+  - Page 845: More ranks than remaining categories in 0516919110 OHU_HU Stage II: offset=2, ranks=1, total_cats=2
+  - Page 847: More ranks than remaining categories in 0516929310 HU_HU Stage II: offset=3, ranks=3, total_cats=5
+  - Page 849: More ranks than remaining categories in 0516961210 HU_HU Stage II: offset=5, ranks=1, total_cats=5
+  - Page 850: More ranks than remaining categories in 0517019110 STATE Stage I: offset=0, ranks=3, total_cats=2
+  - Page 850: More ranks than remaining categories in 0517029310 STATE Stage II: offset=2, ranks=1, total_cats=2
+  - Page 862: More ranks than remaining categories in 0517729310 STATE Stage II: offset=14, ranks=2, total_cats=15
+  - Page 898: More ranks than remaining categories in 0530319110 HU_HU Stage II: offset=6, ranks=3, total_cats=8
+  - Page 924: More ranks than remaining categories in 0538019110 HU_HU Stage II: offset=4, ranks=2, total_cats=5
+  - Page 927: More ranks than remaining categories in 0538029310 HU_HU Stage II: offset=4, ranks=1, total_cats=4
+  - Page 929: More ranks than remaining categories in 0538061210 HU_HU Stage II: offset=7, ranks=4, total_cats=10
+  - Page 933: More ranks than remaining categories in 0538129310 HU_HU Stage II: offset=6, ranks=3, total_cats=8
+  - Page 954: More ranks than remaining categories in 0539629310 HU_HU Stage II: offset=3, ranks=2, total_cats=4
+  - Page 955: More ranks than remaining categories in 0539661210 HU_HU Stage II: offset=5, ranks=1, total_cats=5
+  - Page 970: More ranks than remaining categories in 0540819110 HU_HU Stage II: offset=2, ranks=1, total_cats=2
+  - Page 973: More ranks than remaining categories in 0540861210 HU_HU Stage II: offset=2, ranks=1, total_cats=2
+  - Page 980: More ranks than remaining categories in 0541161210 HU_HU Stage II: offset=2, ranks=1, total_cats=2
+  - Page 999: More ranks than remaining categories in 0551319110 HU_HU Stage II: offset=3, ranks=1, total_cats=3
+  - Page 1014: More ranks than remaining categories in 0600537210 STATE Stage II: offset=22, ranks=1, total_cats=22
+  - Page 1077: More ranks than remaining categories in 0617561210 STATE Stage II: offset=26, ranks=1, total_cats=26
+  - Page 1079: More ranks than remaining categories in 0617719110 HU_OHU Stage II: offset=3, ranks=1, total_cats=3
+  - Page 1088: More ranks than remaining categories in 0617861210 OHU_OHU Stage II: offset=15, ranks=2, total_cats=16
+  - Page 1098: More ranks than remaining categories in 0618361210 HU_OHU Stage II: offset=2, ranks=1, total_cats=2
+  - Page 1098: More ranks than remaining categories in 0618361210 OHU_OHU Stage II: offset=2, ranks=1, total_cats=2
+  - Page 1110: More ranks than remaining categories in 0618761210 HU_OHU Stage II: offset=6, ranks=2, total_cats=7
+  - Page 1157: More ranks than remaining categories in 0626829310 STATE Stage II: offset=14, ranks=1, total_cats=14
+  - Page 1157: More ranks than remaining categories in 0626861210 STATE Stage II: offset=17, ranks=1, total_cats=17
+  - Page 1172: More ranks than remaining categories in 0627361210 STATE Stage II: offset=27, ranks=1, total_cats=27
+  - Page 1176: More ranks than remaining categories in 0627437210 STATE Stage II: offset=24, ranks=1, total_cats=24
+  - Page 1189: More ranks than remaining categories in 0627737210 STATE Stage II: offset=13, ranks=1, total_cats=13
+  - Page 1197: More ranks than remaining categories in 0628224610 STATE Stage II: offset=26, ranks=1, total_cats=26
+  - Page 1216: More ranks than remaining categories in 0629361210 HU_HU Stage II: offset=2, ranks=2, total_cats=3
+  - Page 1219: More ranks than remaining categories in 0629861210 STATE Stage II: offset=18, ranks=1, total_cats=18
+  - Page 1228: More ranks than remaining categories in 0630524210 STATE Stage II: offset=2, ranks=1, total_cats=2
+  - Page 1249: More ranks than remaining categories in 0631361210 HU_HU Stage II: offset=6, ranks=2, total_cats=7
+  - Page 1253: More ranks than remaining categories in 0631561210 HU_HU Stage II: offset=5, ranks=2, total_cats=6
+  - Page 1306: More ranks than remaining categories in 0644461210 HU_HU Stage II: offset=2, ranks=1, total_cats=2
+  - Page 1320: More ranks than remaining categories in 0654529310 STATE Stage II: offset=3, ranks=1, total_cats=3
+  - Page 1321: More ranks than remaining categories in 0654561210 STATE Stage II: offset=6, ranks=3, total_cats=8
+  - Page 1375: More ranks than remaining categories in 0664461210 STATE Stage II: offset=5, ranks=1, total_cats=5
+  - Page 1380: More ranks than remaining categories in 0664961210 HU_HU Stage II: offset=10, ranks=2, total_cats=11
+  - Page 1399: More ranks than remaining categories in 0675624210 STATE Stage II: offset=17, ranks=1, total_cats=17
+  - Page 1423: More ranks than remaining categories in 0676229310 HU_HU Stage II: offset=9, ranks=1, total_cats=9
+  - Page 1460: More ranks than remaining categories in 0678161210 HU_HU Stage II: offset=2, ranks=1, total_cats=2
+  - Page 1463: More ranks than remaining categories in 0678229310 OHU_HU Stage II: offset=2, ranks=1, total_cats=2
+  - Page 1509: More ranks than remaining categories in 0681561210 HU_OHU Stage II: offset=5, ranks=4, total_cats=8
+  - Page 1525: More ranks than remaining categories in 0690158510 HU_HU Stage II: offset=5, ranks=1, total_cats=5
+
+Pages with zero rows (0):
+  None
+
+======================================================================
+Random Audit Sample (100 rows):
+======================================================================
+  Page 2: 01002 | 0100261210 | STATE | LSTS | Stage I | Rank=125170 | Pctl=56.5039753
+  Page 16: 01101 | 0110161210 | OHU_OHU | LOPENO | Stage I | Rank=59509 | Pctl=82.1124479
+  Page 64: 01128 | 0112824610 | STATE | EWS | Stage I | Rank=159790 | Pctl=37.1950556
+  Page 96: 02008 | 0200824610 | STATE | GOBCS | Stage I | Rank=13652 | Pctl=96.0671999
+  Page 101: 02020 | 0202024610 | STATE | LSTS | Stage I | Rank=92868 | Pctl=70.5005064
+  Page 103: 02020 | 0202089610 | STATE | GSCS | Stage I | Rank=78556 | Pctl=75.4880541
+  Page 123: 02113 | 0211337210 | STATE | LOPENS | Stage I | Rank=82697 | Pctl=73.8000589
+  Page 136: 02127 | 0212724610 | HU_HU | LOBCH | Stage I | Rank=75180 | Pctl=76.8955509
+  Page 155: 02131 | 0213137210 | HU_OHU | LVJH | Stage II | Rank=201453 | Pctl=3.1802973
+  Page 218: 02516 | 0251629710 | HU_OHU | GOBCH | Stage I | Rank=176869 | Pctl=25.4595013
+  Page 227: 02533 | 0253329310 | HU_HU | LOPENH | Stage I | Rank=75246 | Pctl=76.8955509
+  Page 228: 02533 | 0253337810 | OHU_OHU | GOPENO | Stage I | Rank=109793 | Pctl=63.3986014
+  Page 264: 02777 | 0277724210 | OHU_OHU | GOPENO | Stage I | Rank=132191 | Pctl=53.2228937
+  Page 273: 03012 | 0301237210 | STATE | GNT3S | Stage I | Rank=1325 | Pctl=99.5546231
+  Page 300: 03139 | 0313924610 | STATE | DEFRNT2S | Stage I | Rank=36165 | Pctl=89.2945239
+  Page 312: 03146 | 0314661210 | HU_HU | PWDOPENH | Stage II | Rank=130109 | Pctl=54.0903901
+  Page 320: 03147 | 0314791710 | HU_HU | GNT3H | Stage I | Rank=163416 | Pctl=35.5422955
+  Page 360: 03187 | 0318750710 | STATE | TFWS | Stage I | Rank=57804 | Pctl=82.4521073
+  Page 396: 03194 | 0319491210 | OHU_OHU | GOPENO | Stage I | Rank=55978 | Pctl=83.1060395
+  Page 400: 03197 | 0319724510 | STATE | MI | Stage I | Rank=201048 | Pctl=3.5482921
+  Page 472: 03220 | 0322025210 | HU_OHU | GNT2H | Stage I | Rank=128937 | Pctl=54.4314351
+  Page 480: 03221 | 0322192610 | HU_HU | LSCH | Stage I | Rank=128973 | Pctl=54.4314351
+  Page 507: 03351 | 0335156810 | HU_HU | LOBCH | Stage I | Rank=146844 | Pctl=45.3566434
+  Page 542: 03465 | 0346524210 | HU_HU | GNT3H | Stage I | Rank=131814 | Pctl=53.2657343
+  Page 570: 03477 | 0347724510 | OHU_OHU | GSTO | Stage I | Rank=117058 | Pctl=60.3213757
+  Page 614: 04118 | 0411819110 | HU_HU | LNT1H | Stage I | Rank=192892 | Pctl=11.8670556
+  Page 627: 04133 | 0413337210 | OHU_OHU | LOBCO | Stage II | Rank=146216 | Pctl=45.8266058
+  Page 664: 04145 | 0414599510 | STATE | GSCS | Stage I | Rank=134255 | Pctl=51.7009371
+  Page 668: 04151 | 0415137010 | STATE | DEFOPENS | Stage I | Rank=193066 | Pctl=11.7097752
+  Page 680: 04167 | 0416799510 | STATE | LOPENS | Stage I | Rank=21771 | Pctl=93.6851271
+  Page 734: 04304 | 0430437250F | HU_HU | LOBCH | Stage I | Rank=58152 | Pctl=82.3938224
+  Page 736: 04613 | 0461326510 | STATE | GOPENS | Stage I | Rank=113940 | Pctl=61.5619516
+  Page 762: 05004 | 0500461210 | STATE | GNT2S | Stage I | Rank=74895 | Pctl=76.8973331
+  Page 772: 05104 | 0510437210 | HU_HU | GSEBCH | Stage I | Rank=168998 | Pctl=31.9280223
+  Page 778: 05108 | 0510861210 | STATE | LOBCS | Stage I | Rank=130016 | Pctl=54.0903901
+  Page 784: 05121 | 0512125710 | STATE | LOPENS | Stage I | Rank=22597 | Pctl=93.4570631
+  Page 800: 05130 | 0513061210 | OHU_OHU | GNT1O | Stage I | Rank=174686 | Pctl=26.7336064
+  Page 803: 05139 | 0513924610 | HU_HU | GNT2H | Stage I | Rank=68586 | Pctl=78.8357161
+  Page 806: 05139 | 0513950710 | HU_HU | GOBCH | Stage I | Rank=110342 | Pctl=63.2914656
+  Page 806: 05139 | 0513950710 | OHU_OHU | GSEBCO | Stage I | Rank=97488 | Pctl=68.4702591
+  Page 809: 05139 | 0513991610 | OHU_OHU | GOBCO | Stage I | Rank=95594 | Pctl=69.2179237
+  Page 811: 05151 | 0515119110 | OHU_OHU | GOBCO | Stage I | Rank=103933 | Pctl=65.8462319
+  Page 835: 05162 | 0516299510 | STATE | EWS | Stage I | Rank=113570 | Pctl=61.6834321
+  Page 865: 05179 | 0517924510 | OHU_OHU | GNT2O | Stage I | Rank=166663 | Pctl=32.5451434
+  Page 872: 05181 | 0518129310 | HU_HU | GOPENH | Stage I | Rank=112143 | Pctl=62.1365556
+  Page 889: 05244 | 0524425710 | OHU_OHU | LOBCO | Stage I | Rank=80060 | Pctl=75.1927485
+  Page 897: 05263 | 0526337210 | HU_OHU | GSCH | Stage I | Rank=146533 | Pctl=45.3566434
+  Page 909: 05331 | 0533124510 | HU_HU | GNT3H | Stage I | Rank=90171 | Pctl=71.4755245
+  Page 952: 05396 | 0539619110 | HU_HU | LOPENH | Stage I | Rank=175902 | Pctl=25.7272727
+  Page 989: 05418 | 0541891610 | OHU_OHU | LOPENO | Stage I | Rank=97688 | Pctl=68.4702591
+  Page 1014: 06005 | 0600529310 | STATE | DEFOPENS | Stage I | Rank=71748 | Pctl=78.1688442
+  Page 1015: 06005 | 0600561210 | STATE | LSTS | Stage I | Rank=79094 | Pctl=75.3562654
+  Page 1022: 06028 | 0602850310 | HU_OHU | LSTH | Stage I | Rank=156679 | Pctl=43.6896345
+  Page 1071: 06155 | 0615524510 | STATE | MI | Stage I | Rank=86943 | Pctl=72.6730266
+  Page 1073: 06155 | 0615591310 | STATE | MI | Stage I | Rank=203476 | Pctl=0.3974203
+  Page 1076: 06175 | 0617524610 | STATE | DEFOPENS | Stage I | Rank=12138 | Pctl=96.5212532
+  Page 1086: 06178 | 0617824610 | OHU_OHU | GOBCO | Stage I | Rank=23951 | Pctl=93.0332708
+  Page 1089: 06179 | 0617924510 | STATE | LOPENS | Stage I | Rank=28321 | Pctl=91.7146701
+  Page 1091: 06182 | 0618219110 | HU_HU | LOPENH | Stage I | Rank=157989 | Pctl=39.2302050
+  Page 1096: 06183 | 0618324510 | OHU_OHU | GOPENO | Stage I | Rank=74145 | Pctl=77.0149774
+  Page 1109: 06187 | 0618737210 | STATE | DEFOBCS | Stage I | Rank=103568 | Pctl=65.8992965
+  Page 1121: 06206 | 0620699510 | OHU_OHU | GNT1O | Stage I | Rank=68677 | Pctl=78.8357161
+  Page 1125: 06207 | 0620729310 | HU_HU | LNT1H | Stage I | Rank=76290 | Pctl=76.6755200
+  Page 1126: 06207 | 0620737210 | OHU_OHU | GNT2O | Stage I | Rank=21538 | Pctl=93.7635248
+  Page 1134: 06217 | 0621719110 | STATE | LOPENS | Stage I | Rank=124021 | Pctl=57.0133407
+  Page 1149: 06250 | 0625019110 | STATE | GOPENS | Stage I | Rank=83280 | Pctl=73.6345056
+  Page 1149: 06250 | 0625019110 | STATE | GSEBCS | Stage I | Rank=85214 | Pctl=73.2612864
+  Page 1153: 06267 | 0626719110 | STATE | TFWS | Stage I | Rank=31126 | Pctl=90.8833776
+  Page 1159: 06269 | 0626990010 | STATE | GOPENS | Stage I | Rank=162181 | Pctl=35.9295868
+  Page 1159: 06269 | 0626992510 | STATE | LVJS | Stage I | Rank=88025 | Pctl=71.8498844
+  Page 1168: 06272 | 0627221910 | STATE | GOPENS | Stage I | Rank=14651 | Pctl=95.7887398
+  Page 1202: 06284 | 0628424510 | STATE | LOPENS | Stage I | Rank=24668 | Pctl=92.8125754
+  Page 1218: 06298 | 0629819110 | STATE | GOBCS | Stage I | Rank=106089 | Pctl=64.7148712
+  Page 1218: 06298 | 0629819110 | STATE | DEFOPENS | Stage I | Rank=181240 | Pctl=22.1118881
+  Page 1219: 06298 | 0629837210 | STATE | LNT3S | Stage I | Rank=78227 | Pctl=75.6075065
+  Page 1220: 06298 | 0629899510 | STATE | GOPENS | Stage I | Rank=52594 | Pctl=84.1437716
+  Page 1224: 06303 | 0630361210 | HU_HU | LOPENH | Stage I | Rank=131370 | Pctl=53.6060165
+  Page 1240: 06311 | 0631124610 | OHU_OHU | LOPENO | Stage I | Rank=31186 | Pctl=90.8739909
+  Page 1245: 06313 | 0631324510 | HU_HU | GOPENH | Stage I | Rank=127693 | Pctl=55.1895416
+  Page 1268: 06320 | 0632037210 | HU_HU | LVJH | Stage I | Rank=151887 | Pctl=42.6339209
+  Page 1283: 06324 | 0632424510 | HU_HU | LSEBCH | Stage I | Rank=109884 | Pctl=63.3986014
+  Page 1298: 06326 | 0632637210 | STATE | TFWS | Stage I | Rank=83246 | Pctl=73.6345056
+  Page 1302: 06402 | 0640257310 | OHU_HU | GOPENO | Stage I | Rank=158717 | Pctl=38.2479385
+  Page 1326: 06609 | 0660961210 | STATE | TFWS | Stage I | Rank=119916 | Pctl=58.8525307
+  Page 1337: 06625 | 0662529310 | HU_OHU | GSCH | Stage I | Rank=179855 | Pctl=22.8933117
+  Page 1339: 06628 | 0662819110 | OHU_OHU | GVJO | Stage I | Rank=188042 | Pctl=16.4425946
+  Page 1350: 06632 | 0663299510 | HU_HU | GSCH | Stage I | Rank=166116 | Pctl=32.5553935
+  Page 1350: 06632 | 0663299510 | HU_HU | LOBCH | Stage I | Rank=102507 | Pctl=66.3795642
+  Page 1352: 06634 | 0663424510 | HU_HU | GOPENH | Stage I | Rank=51031 | Pctl=84.7618697
+  Page 1354: 06634 | 0663437210 | HU_HU | GOPENH | Stage I | Rank=83205 | Pctl=73.6345056
+  Page 1374: 06644 | 0664437210 | STATE | LOPENS | Stage I | Rank=184539 | Pctl=19.2051273
+  Page 1438: 06768 | 0676861210 | HU_HU | LSCH | Stage I | Rank=195951 | Pctl=9.0142807
+  Page 1455: 06780 | 0678024210 | STATE | LOBCS | Stage I | Rank=98908 | Pctl=68.1164395
+  Page 1463: 06782 | 0678229310 | OHU_HU | UNKNOWN_2 | Stage II | Rank=203545 | Pctl=0.3108519
+  Page 1480: 06796 | 0679624510 | HU_HU | GNT1H | Stage I | Rank=37575 | Pctl=88.9550679
+  Page 1533: 06991 | 0699156610 | OHU_OHU | GSCO | Stage I | Rank=46290 | Pctl=86.2326458
+  Page 1536: 14005 | 1400550110 | STATE | EWS | Stage I | Rank=65101 | Pctl=80.0000000
+  Page 1538: 16006 | 1600619110 | STATE | LSCS | Stage I | Rank=21879 | Pctl=93.6678322
+  Page 1538: 16006 | 1600637210 | STATE | LOBCS | Stage I | Rank=1636 | Pctl=99.4678977
+  Page 1540: 16006 | 1600661210 | STATE | TFWS | Stage I | Rank=2693 | Pctl=99.1652582

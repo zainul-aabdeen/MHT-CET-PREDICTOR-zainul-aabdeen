@@ -1,0 +1,23 @@
+======================================================================
+SUMMARY REPORT
+======================================================================
+
+total_pages: 1516
+total_colleges: 369
+total_branches: 2149
+total_rows: 22874
+
+rows_per_seat_scope:
+  HU_HU: 7060
+  HU_OHU: 852
+  OHU_HU: 863
+  OHU_OHU: 4955
+  STATE: 9144
+
+duplicate_rows: 323
+
+missing_values:
+  branch_code: 1
+
+failed_pages: 0
+  None
