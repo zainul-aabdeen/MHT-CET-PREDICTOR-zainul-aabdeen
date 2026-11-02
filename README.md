@@ -1,3 +1,4 @@
+
 # 🎓 MHT-CET COLLEGE PREDICTOR
 
 <p align="center">
@@ -8,20 +9,20 @@ A data-driven web application for exploring **MHT-CET engineering colleges and b
 
 <br>
 
-[🚀 **LIVE DEMO**](https://mht-cet-predictor-zainul-aabdeen.vercel.app/)
+[🚀 **LIVE DEMO**](https://mht-cet-college-engine-zainul-aabdeen.vercel.app/)
 [💻 **SOURCE CODE**](https://github.com/zainul-aabdeen/MHT-CET-PREDICTOR-zainul-aabdeen)
 
 </p>
 
 <p align="center">
 
-![Next.js](https://img.shields.io/badge/Next.js-16-black?style=for-the-badge\&logo=next.js)
-![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge\&logo=react)
-![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge\&logo=typescript)
-![FastAPI](https://img.shields.io/badge/FastAPI-0.138-009688?style=for-the-badge\&logo=fastapi)
-![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge\&logo=python)
-![Vercel](https://img.shields.io/badge/Frontend-Vercel-black?style=for-the-badge\&logo=vercel)
-![Render](https://img.shields.io/badge/Backend-Render-46E3B7?style=for-the-badge\&logo=render)
+![Next.js](https://img.shields.io/badge/Next.js-16-black?style=for-the-badge&logo=next.js)
+![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.138-009688?style=for-the-badge&logo=fastapi)
+![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python)
+![Vercel](https://img.shields.io/badge/Frontend-Vercel-black?style=for-the-badge&logo=vercel)
+![Render](https://img.shields.io/badge/Backend-Render-46E3B7?style=for-the-badge&logo=render)
 
 </p>
 
@@ -41,7 +42,7 @@ Instead of jumping between multiple cutoff PDFs and spreadsheets, the predictor 
 
 # ⚡ LIVE DEMO
 
-### 👉 [Open the MHT-CET College Predictor](https://mht-cet-predictor-zainul-aabdeen.vercel.app/)
+### 👉 [Open the MHT-CET College Predictor](https://mht-cet-college-engine-zainul-aabdeen.vercel.app/)
 
 > **⚠️ Important loading note**
 >
@@ -52,8 +53,11 @@ Instead of jumping between multiple cutoff PDFs and spreadsheets, the predictor 
 > ### What this means:
 >
 > 🟢 **Backend recently active** → normal response time
+>
 > 🟡 **Backend idle for 15+ minutes** → first request can be noticeably slow
+>
 > 🔄 **Cold start** → Render wakes the backend up
+>
 > 🚀 **After startup** → requests return normally
 >
 > So if the first search seems slow, **the application is usually just waking the backend up**.
@@ -84,15 +88,15 @@ The loaded CAP datasets are filtered for the **2025 academic year** when the aca
 
 Each result can include:
 
-* College code
-* College name
-* Branch code
-* Branch name
-* CAP round
-* Category
-* Seat scope
-* Cutoff rank
-* Cutoff percentile
+- College code
+- College name
+- Branch code
+- Branch name
+- CAP round
+- Category
+- Seat scope
+- Cutoff rank
+- Cutoff percentile
 
 ---
 
@@ -100,18 +104,18 @@ Each result can include:
 
 Customize your search using filters for:
 
-| Filter               | Available         |
-| -------------------- | ----------------- |
-| 🎯 Target Percentile | ✅                 |
-| 📈 Percentile Buffer | ✅                 |
-| 🏷️ Category         | ✅                 |
-| 💻 Branch            | ✅                 |
-| 🏛️ CAP Round        | ✅                 |
-| 🪑 Seat Scope        | ✅                 |
-| 📍 Region            | ✅                 |
-| 🧭 Current Location  | ✅                 |
-| 🧑‍💼 Recruiters     | Backend supported |
-| ↕️ Sorting           | ✅                 |
+| Filter | Available |
+|---|---|
+| 🎯 Target Percentile | ✅ |
+| 📈 Percentile Buffer | ✅ |
+| 🏷️ Category | ✅ |
+| 💻 Branch | ✅ |
+| 🏛️ CAP Round | ✅ |
+| 🪑 Seat Scope | ✅ |
+| 📍 Region | ✅ |
+| 🧭 Current Location | ✅ |
+| 🧑‍💼 Recruiters | Backend supported |
+| ↕️ Sorting | ✅ |
 
 ### Supported regions
 
@@ -235,7 +239,7 @@ This makes it easier to continue comparing colleges in Excel, Google Sheets, or 
 
 ```text
                     ┌──────────────────────┐
-                    │   MHT-CET Percentile │
+                    │   MHT-CET Percentile  │
                     └──────────┬───────────┘
                                │
                                ▼
@@ -286,23 +290,23 @@ This makes it easier to continue comparing colleges in Excel, Google Sheets, or 
 
 ### Frontend
 
-* **Next.js**
-* **React**
-* **TypeScript**
-* **Tailwind CSS**
-* **Zustand**
-* **Axios / Fetch**
-* **Lucide React**
+- **Next.js**
+- **React**
+- **TypeScript**
+- **Tailwind CSS**
+- **Zustand**
+- **Axios / Fetch**
+- **Lucide React**
 
 ### Backend
 
-* **Python**
-* **FastAPI**
-* **Pandas**
-* **NumPy**
-* **Pydantic**
-* **GeoPy**
-* **Uvicorn / Gunicorn**
+- **Python**
+- **FastAPI**
+- **Pandas**
+- **NumPy**
+- **Pydantic**
+- **GeoPy**
+- **Uvicorn / Gunicorn**
 
 ### Deployment
 
@@ -361,13 +365,13 @@ The FastAPI backend exposes two main endpoints:
 
 Returns available search options such as:
 
-* Categories
-* Branches
-* Seat allocations
-* Seat scopes
-* CAP rounds
-* Recruiters
-* Regions
+- Categories
+- Branches
+- Seat allocations
+- Seat scopes
+- CAP rounds
+- Recruiters
+- Regions
 
 ### `POST /api/search`
 
@@ -476,14 +480,14 @@ Historical cutoff data can help students understand previous trends, but **actua
 
 Admission depends on factors such as:
 
-* Candidate category
-* Seat type
-* CAP round
-* Choice filling
-* Competition
-* Vacancies
-* Cutoff movement
-* Official admission rules
+- Candidate category
+- Seat type
+- CAP round
+- Choice filling
+- Competition
+- Vacancies
+- Cutoff movement
+- Official admission rules
 
 ### Always verify important information with the official MHT-CET / State CET Cell sources before making your final choice.
 
